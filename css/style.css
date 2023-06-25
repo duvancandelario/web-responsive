@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caprasimo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+    padding: 0px 0px 0px 0px;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.container-principal{
+    background-color: #0a3748;}
+
+
+header{
+    padding: 23px;
+}
+.caja-header-home{
+    display: flex;
+    background-color: #0a3748;
+    color: white;
+    font-size: 17px;
+    gap: 30px;
+    justify-content: space-between;
+    width: 100%;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+.lista-header{
+    display: flex;
+    align-items: center;
+    padding: 0px 0px 0px 0px;
+    gap: 25px;
+}
+
+.items-header{
+    padding: 0px 7px 0px 0px;
+    font-size: 15px;
+
+}
+
+.uno{
+    padding: 0px 25px 0px 0px;
+}
+
+i{
+    padding-left: 5px;
+    width: 10px;
+}
+
+.section-left{
+    display: flex;
+    gap: 40px;
+}
+
+.section-right{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    border: solid 1px;
+    padding: 15px;
+}
+
+.caja-header-home .menu{
+    display: none;
+}
+
+.book-demo{
+   background-color: white;
+   color: #0a3748;
+}
+
+.free.trial{
+    
+}
+
+.lista-header-derecha{
+    display: flex;
+    
+}
+
+
+/*MAIN*/
+
+.contenido-home{
+    display: flex;
+    padding-left: 150px;
+    padding-right: 120px;
+    padding-top: 80px;
+    color: white;
+    padding-bottom: 80px;
+
+}
+
+.contenido-home h1{
+    font-size: 60px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+.caja-izquierda{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 40px;
+    width: 50%;
+    flex-wrap: row;
+    font-size: 20px;
+    padding-right: 90px;
+}
+
+.caja-izquierda img{
+    display: flex;
+    margin-top: -30px;
+}
+
+
+
+.caja-derecha{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    flex-wrap: row;
+}
+
+
+
+.img-home{
+    padding: 50px;
+    width: 100%;
+    background-position: center;
+}
+
+/*FOOTER MAIN*/
+
+.footer-home{
+    display: flex;
+    color: white;
+    font-size: 20px;
+    height: 170px;
+    padding-top: 50px;
+    padding-left: 250px;
+    padding-right: 250px;
+    justify-content: space-between;
+}
+
+h4{
+    color: #b7e4f5;
+}
+
+/*MEDIA QUERIES*/
+
+    @media (max-width: 1023px) {
+        
+        .container-principal{
+            padding: 0;
+        }
+
+        .caja-header-home{
+            padding: 0;
+        }
+        .caja-header-home ul{
+            display: none;
+        }
+
+        .caja-header-home .section-right{
+            display: none;
+        }
+
+        .caja-header-home .menu{
+            display: flex;
+        }
+        
+     /*QUERIE SECTION HOME*/
+
+     .contenido-home{
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 20px;
+        align-items: center;
+     }
+
+     .caja-derecha{
+        width: 90%;
+     }
+     .contenido-home .caja-derecha .img-home{
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        padding-bottom: 60px;
+     }
+
+     .contenido-home .caja-izquierda{
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        padding-bottom: 60px;
+        
+     }
+
+     .contenido-home .caja-izquierda h1{
+        font-size: 30px;
+        
+     }
+
+     .footer-home{
+        height: 180px;
+     }
+
+     .footer-home{
+        display: flex;
+        color: white;
+        font-size: 20px;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 30px;
+        height: 100%;
+    }
+
+    }
+
+
+/*CAJA HOME*/
+
+.caja-home{
+    display: flex;
+    padding-top: 120px;
+    background-color: #a0f2e8;
+    padding-left: 140px;
+}
+
+.caja-izquierda-home{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 40px;
+    width: 50%;
+    flex-wrap: row;
+    font-size: 20px;
+    padding-right: 90px;
+    
+}
+
+.our-integrations{
+    background-color: #111827;
+    color: white;
+    height: 50px;
+    padding: 5px;
+ }
